@@ -5,7 +5,7 @@
 
 ### Sistema operativo Ubuntu Server
 
-Este paso es muy sencillo y basta con descargar el iso de Ubuntu Server 16.04 y crear una nueva maquina virtual en VMware Player o Virtual box, en mi caso usé Vmware. 
+Este paso es muy sencillo y basta con descargar el iso de Ubuntu Server 16.04 y crear una nueva maquina virtual en VMware Player o Virtual box, en mi caso usé Vmware. aquí se siguen los pasos de vmware, no se configura password para root, pero sí se configura un usuario, en este momento tambien se pueden editar las interfaces de red.
 
 ### Configuración de Interfaces
 
@@ -350,6 +350,19 @@ Prueba de la url /checks/sshd/history?size=4, este me retorna el número de los 
 ![][13]
 
 
+### Comando netstat
+
+El comando netstat me muestra un listado de las conexiones activas de una computadora, tanto entrantes como salientes, para emplear el comando solo debemos escribir 
+
+```
+sudo netstat -nt
+```
+
+como resultado de este comando se puede apreciar que el puerto 8080 de tcp está siendo empleado por el localhost para la aplicación de python de la siguiente manera
+
+|Proto |Recv-Q |Send-Q |Local Address |          Foreign Address   |      State|
+|------|------|--------|--------------|-----------------------------|---------|
+|tcp   |     0 |     0 |0.0.0.0:8080  |          0.0.0.0:* |            LISTEN|
 
 
 ### Referencias
