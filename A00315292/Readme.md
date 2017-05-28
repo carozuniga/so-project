@@ -3,16 +3,20 @@
 # Proyecto Sistemas Operativos
 
 ### Configuración de Interfaces
+
 ![][1]
 
 ### Configuracion de Puertos
 Primero se habilita la herramienta ufw que al activarse iniciará en los próximos arranques por defecto
+
 ![][2]
 
 Se habilita el puerto 8080 para el funcionaiento de la aplicacion
+
 ![][3]
 
 Por último se verifica el estado de los puertos
+
 ![][4]
 
 ### Instalación de Dependencias
@@ -344,7 +348,7 @@ Prueba de la url /checks/sshd/history?size=4, este me retorna el número de los 
 
 
 ### Referencias
-http://www.websecurity.es/ufw-configura-facilmente-tu-firewall-con-iptables
+- http://www.websecurity.es/ufw-configura-facilmente-tu-firewall-con-iptables
 
 [1]: Images/interfaces.png
 [2]: Images/ufwActivation.png
