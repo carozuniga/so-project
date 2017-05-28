@@ -31,7 +31,7 @@ python get-pip.py
 pip install virtualenv
 ```
 
-### Crear un ambiente virtual para el projecto
+### Crear un ambiente virtual para el proyecto
 
 Para iniciar virtualenvwrapper automáticamente editamos el archivo **.bashrc**
 
