@@ -1,5 +1,6 @@
 #### **Nombre:** Carolina Zúñiga
 #### **Código:** A00315292
+#### **Url repositorio:** https://github.com/carozuniga/so-project/tree/master/A00315292
 # Proyecto Sistemas Operativos
 
 ### Configuración de Interfaces
@@ -350,10 +351,10 @@ Prueba de la url /checks/sshd/history?size=4, este me retorna el número de los 
 ### Referencias
 - http://www.websecurity.es/ufw-configura-facilmente-tu-firewall-con-iptables
 
-[1]: Images/interfaces.png
-[2]: Images/ufwActivation.png
-[3]: Images/ufwAllow.png
-[4]: Images/ufwLog.png
+[1]: Images/interfaces.PNG
+[2]: Images/ufwActivation.PNG
+[3]: Images/ufwAllow.PNG
+[4]: Images/ufwLog.PNG
 [5]: Images/apiDoc.png
 [6]: Images/daemon.PNG
 [7]: Images/database.PNG
