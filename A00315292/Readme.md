@@ -3,6 +3,10 @@
 #### **Url repositorio:** https://github.com/carozuniga/so-project/tree/master/A00315292
 # Proyecto Sistemas Operativos
 
+### Sistema operativo Ubuntu Server
+
+Este paso es muy sencillo y basta con descargar el iso de Ubuntu Server 16.04 y crear una nueva maquina virtual en VMware Player o Virtual box, en mi caso usé Vmware. 
+
 ### Configuración de Interfaces
 
 ![][1]
@@ -27,7 +31,7 @@ python get-pip.py
 pip install virtualenv
 ```
 
-Crear un ambiente virtual para el projecto
+### Crear un ambiente virtual para el projecto
 
 Para iniciar virtualenvwrapper automáticamente editamos el archivo **.bashrc**
 
