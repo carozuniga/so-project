@@ -71,7 +71,7 @@ Instalar los requerimientos para el proyecto en el virtualenv.
 
 ### Aplicación en python
 
-para este punto empleé 3 scripts en python:
+para este punto empleé 3 scripts en python, estos fueron copiados del repositorio del examen 2:
 
 **commands.py:** este script tiene los comandos que van a ser usados por check_user y que retornan el uso de la memoria (free -m), el uso del disco (df -h), el uso de la cpu (mpstat), y el servicio escogido sshd (srvice sshd status).
 
@@ -315,19 +315,6 @@ La documentación con swagger es la siguiente:
 
 ![][5]
 
-Capturas de pantalla:
-
-Ejecución de daemon.py en background:
-
-![][6]
-
-Prueba de que sí está llenando la base de datos, pasados 7 minutos:
-
-![][7]
-
-Ejecución de app.py:
-
-![][8]
 
 Prueba de la url /checks que retorna el ultimo check realizado (cpu, disco, memoria y sshd) y su identificador:
 
