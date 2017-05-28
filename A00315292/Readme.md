@@ -58,9 +58,10 @@ Ejecute los siguientes comandos como el usuario python_user, para crear un ambie
 $ mkvirtualenv flask_env
 $ pip install flask
 $ pip install flask_restplus
+. 
+. 
+.
 ```
-
-**Nota:** Al crear un ambiente virtual con virtualenvwrapper, el ambiente creado es automáticamente activado. Esto se puede verificar al observar el nombre del ambiente a la izquierda del prompt ($)
 
 Crear un directorio para el código fuente
 
